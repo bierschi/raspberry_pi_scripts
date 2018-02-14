@@ -1,2 +1,2 @@
-# raspberry_pi_scripts
-Useful raspberry pi scripts
+# A repository for useful raspberry pi scripts
+
