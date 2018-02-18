@@ -89,4 +89,10 @@ echo -e "create can interfaces \n"
 
 read_can_numbers
 
+echo -e "configuration finished \n"
+echo "reboot starts in 5 seconds"
+sleep 5
+sudo reboot
+
+
 
