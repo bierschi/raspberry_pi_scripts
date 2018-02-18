@@ -61,16 +61,16 @@ fi
 
 read_can_numbers(){
 read -rep $'how many interfaces do you want to create? Type: 1 (only can0), type: 2 (can0 and can1)\n' numbers
-echo $numbers
+
 if (( $numbers > 0 )) && (( $numbers < 3 ))
 then
   if [ $numbers -eq 1 ]
   then
-    echo -e "create CAN0"
+    echo -e "create CAN0\n"
     can0_settings
     create_can0_if
   else
-    echo -e "create CAN0 and CAN1"
+    echo -e "create CAN0 and CAN1\n"
     can0_settings
     create_can0_if
     can1_settings

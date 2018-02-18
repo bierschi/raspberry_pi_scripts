@@ -40,31 +40,32 @@ EOF
 
 select_hifiberry_card(){
 read -rep $'Which hifiberry card do you use? Type: 1 (hifiberry-dac), Type: 2 (hifiberry-dacplus), Type: 3 (hifiberry-digi, Type: 4 (hifiberry-amp)\n' numbers
-echo $numbers
+
 if (( $numbers > 0 )) && (( $numbers < 5 ))
 then
   create_hifiberry_settings
+  configure_ALSA
 
   if [ $numbers -eq 1 ]
   then
-    echo -e "create hifiberry-dac"
+    echo -e "create hifiberry-dac\n"
     hifiberry_dac
 
   elif [ $numbers -eq 2 ]
   then
-    echo -e "create hifiberry-dacplus"
+    echo -e "create hifiberry-dacplus\n"
     hifiberry_dacplus
 
   elif [ $numbers -eq 3 ]
   then
-    echo -e "create hifiberry-digi"
+    echo -e "create hifiberry-digi\n"
     hifiberry_digi
   else
-   echo -e "create hifiberry-amp"
+   echo -e "create hifiberry-amp\n"
    hifiberry_amp
   fi
 else
-  echo -e "wrong number, please retry!"
+  echo -e "wrong number, please retry!\n"
   select_hifiberry_card
 fi
 
@@ -74,7 +75,7 @@ fi
 
 ##############main#################
 
-echo -e "start configuration of hifiberry card"
+echo -e "start configuration of hifiberry card\n"
 select_hifiberry_card
 
 echo -e "successfully configured file /boot/config.txt\n"
