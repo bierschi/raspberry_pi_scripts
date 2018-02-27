@@ -31,17 +31,16 @@ device tree overlay "pi3-miniuart-bt".
 function to use the mini UART (ttyS0), and restores UART0/ttyAMA0 to
 GPIOs 14 and 15.
 
-
 <br>
+
+#### Test the serial connection
 
 install minicom to interact with the uart
 <pre><code>
 sudo apt install minicom
 </pre></code>
 
-<br>
 
-##### Test the serial connection
 option -b is the baudrate, select the appropriate baudrate for your use case
 
 if you use the mini uart, insert following command in terminal:
