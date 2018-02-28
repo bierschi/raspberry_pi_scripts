@@ -1,6 +1,9 @@
 # A repository for useful raspberry pi scripts
 
-<img src="pictures/pican2.jpg" alt="example" width="200" height="200">
+<div align="center">
+  <br>
+  <img src="pictures/raspberry-pi-3.png" alt="example" width="295" height="197">
+</div>
 
 ## Scripts
 - can_interfaces.sh
@@ -20,8 +23,8 @@ with the MCP2551 CAN transceiver
 
 <br>
 <div align="center">
-  <img src="https://cdn.shopify.com/s/files/1/1560/1473/products/picture-template_pican2_1.jpg?v=1503590593" alt="example" width="200" height="200">
-  <img src="https://cdn.shopify.com/s/files/1/1560/1473/products/IMG_0002-3.jpg?v=1502370327" alt="example" width="200" height="200">
+  <img src="pictures/pican2.jpg" alt="example" width="200" height="200">
+  <img src="pictures/pican2_duo.jpg" alt="example" width="200" height="200">
   <br>
 </div>
 
