@@ -9,7 +9,7 @@
 
 
 ## can_interfaces.sh
-Executing the "can_interfaces.sh" script, you can load the "can0" and/or the
+Executing the `can_interfaces.sh` script, you can load the "can0" and/or the
 "can1" interface. Depending if you use the pican2 (only "can0") or the
 pican2 duo board("can0" and "can1") .
 
@@ -24,10 +24,10 @@ with the MCP2551 CAN transceiver
 ## establish_ppp_connection.sh
 
 
-### hifiberry_configuration.sh
+## hifiberry_configuration.sh
 
 
-### serial_connection.sh
+## serial_connection.sh
 
 The default setting on GPIO 14 and 15 is the mini uart (ttyS0) (because of
 the bluetooth module). To change this settings, we have to load the correct
