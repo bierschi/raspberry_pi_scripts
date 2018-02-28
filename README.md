@@ -1,5 +1,6 @@
 # A repository for useful raspberry pi scripts
 
+## Scripts
 - can_interfaces.sh
 - establish_ppp_connection.sh
 - hifiberry_configuration.sh
@@ -7,15 +8,22 @@
 
 
 
-### can_interfaces.sh
+## can_interfaces.sh
 Executing the "can_interfaces.sh" script, you can load the "can0" and/or the
-"can1" interface. Depending if you use the pican2 (only "cano") or the
-pican2 duo ("can0" and "can1") board.
+"can1" interface. Depending if you use the pican2 (only "can0") or the
+pican2 duo board("can0" and "can1") .
 
 Tested only with the pican2 and the pican2 duo board containing the MCP2515 CAN controller
 with the MCP2551 CAN transceiver
 
-### establish_ppp_connection.sh
+<br>
+
+<img src="https://cdn.shopify.com/s/files/1/1560/1473/products/picture-template_pican2_1.jpg?v=1503590593" alt="example" width="200" height="200">
+
+<img src="https://cdn.shopify.com/s/files/1/1560/1473/products/IMG_0002-3.jpg?v=1502370327" alt="example" width="200" height="200">
+
+
+## establish_ppp_connection.sh
 
 
 ### hifiberry_configuration.sh
