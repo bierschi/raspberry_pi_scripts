@@ -18,9 +18,7 @@ with the MCP2551 CAN transceiver
 
 <br>
 
-<img src="https://cdn.shopify.com/s/files/1/1560/1473/products/picture-template_pican2_1.jpg?v=1503590593" alt="example" width="200" height="200">
-
-<img src="https://cdn.shopify.com/s/files/1/1560/1473/products/IMG_0002-3.jpg?v=1502370327" alt="example" width="200" height="200">
+<img src="https://cdn.shopify.com/s/files/1/1560/1473/products/picture-template_pican2_1.jpg?v=1503590593" alt="example" width="200" height="200"> <img src="https://cdn.shopify.com/s/files/1/1560/1473/products/IMG_0002-3.jpg?v=1502370327" alt="example" width="200" height="200">
 
 
 ## establish_ppp_connection.sh
