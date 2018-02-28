@@ -1,5 +1,7 @@
 # A repository for useful raspberry pi scripts
-.. image:: pictures/pican2.jpg
+
+<img src="pictures/pican2.jpg" alt="example" width="200" height="200">
+
 ## Scripts
 - can_interfaces.sh
 - establish_ppp_connection.sh
