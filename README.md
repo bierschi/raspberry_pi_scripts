@@ -70,7 +70,7 @@ GPIOs 14 and 15.
 
 **output after activate the powerful uart (ttyAMA0)**
 
-<div align="center">
+<div align="left">
   <img src="pictures/output_ttyama0.png" alt="example" width="800" height="120">
 </div>
 
