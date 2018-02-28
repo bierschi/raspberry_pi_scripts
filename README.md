@@ -7,10 +7,12 @@
 
 ## Scripts
 - can_interfaces.sh
+- [can_interfaces.sh](https://github.com/bierschi/raspberry_pi_scripts#can_interfacessh)
 - establish_ppp_connection.sh
 - hifiberry_configuration.sh
 - serial_connection.sh
 
+- [Anzeigetext für Link](http://www.sampleurl.com)
 ## script execution
 
 ## can_interfaces.sh
