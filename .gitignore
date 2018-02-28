@@ -68,4 +68,4 @@ fabric.properties
 /**/.idea/vcs.xml
 /**/__pycache__/**
 
-/**/pictures/**
+#/**/pictures/**
