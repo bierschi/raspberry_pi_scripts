@@ -54,18 +54,16 @@ GPIOs 14 and 15.
 <br>
 
 **output from a new raspbian image**
-<div align="center">
-  <br>
-  <img src="pictures/output_unchanged.png" alt="example" width="1200" height="100">
+<div align="left">
+  <img src="pictures/output_unchanged1.png" alt="example" width="1000" height="150">
 </div>
 
 <br>
 
 **output after activate the mini uart (ttyS0)**
 
-<div align="center">
-  <br>
-  <img src="pictures/output_enable_uart.png" alt="example" width="1200" height="100">
+<div align="left">
+  <img src="pictures/output_enable_uart1.png" alt="example" width="1000" height="150">
 </div>
 
 <br>
@@ -73,7 +71,6 @@ GPIOs 14 and 15.
 **output after activate the powerful uart (ttyAMA0)**
 
 <div align="center">
-  <br>
   <img src="pictures/" alt="example" width="295" height="197">
 </div>
 
