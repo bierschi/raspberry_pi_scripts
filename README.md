@@ -15,6 +15,14 @@
 - [serial_connection.sh](https://github.com/bierschi/raspberry_pi_scripts#serial_connectionsh)
 
 ## script execution
+make your script executable:
+<pre><code>
+chmod +x your_script.sh
+</pre></code>
+
+<br>
+
+Type in terminal: `./your_script.sh`
 
 ## can_interfaces.sh
 Executing the `can_interfaces.sh` script, you can load the "can0" and/or the
@@ -36,7 +44,13 @@ with the MCP2551 CAN transceiver
 
 
 ## hifiberry_configuration.sh
+Executing the `hifiberry_configuration.sh` script, you can select one
+depending on your dac soundcard from hifiberry
 
+- hifiberry-dac
+- hifiberry-dacplus
+- hifiberry-digi
+- hifiberry-amp
 
 ## serial_connection.sh
 
