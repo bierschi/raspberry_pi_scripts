@@ -6,13 +6,14 @@
 </div>
 
 ## Scripts
-- can_interfaces.sh
 - [can_interfaces.sh](https://github.com/bierschi/raspberry_pi_scripts#can_interfacessh)
-- establish_ppp_connection.sh
-- hifiberry_configuration.sh
-- serial_connection.sh
 
-- [Anzeigetext für Link](http://www.sampleurl.com)
+- [establish_ppp_connection.sh](https://github.com/bierschi/raspberry_pi_scripts#establish_ppp_connectionsh)
+
+- [hifiberry_configuration.sh](https://github.com/bierschi/raspberry_pi_scripts#hifiberry_configurationsh)
+
+- [serial_connection.sh](https://github.com/bierschi/raspberry_pi_scripts#serial_connectionsh)
+
 ## script execution
 
 ## can_interfaces.sh
@@ -45,6 +46,36 @@ device tree overlay `pi3-miniuart-bt`.
 DTO `pi3-miniuart-bt` switches the Raspberry Pi 3 and Raspberry Pi Zero W Bluetooth
 function to use the mini UART (ttyS0), and restores UART0/ttyAMA0 to
 GPIOs 14 and 15.
+
+<br>
+
+#### Output of dmesg
+
+<br>
+
+**output from a new raspbian image**
+<div align="center">
+  <br>
+  <img src="pictures/output_unchanged.png" alt="example" width="1200" height="100">
+</div>
+
+<br>
+
+**output after activate the mini uart (ttyS0)**
+
+<div align="center">
+  <br>
+  <img src="pictures/output_enable_uart.png" alt="example" width="1200" height="100">
+</div>
+
+<br>
+
+**output after activate the powerful uart (ttyAMA0)**
+
+<div align="center">
+  <br>
+  <img src="pictures/" alt="example" width="295" height="197">
+</div>
 
 <br>
 
