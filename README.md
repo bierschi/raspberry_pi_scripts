@@ -22,7 +22,7 @@ chmod +x your_script.sh
 
 <br>
 
-Type in terminal: `./your_script.sh`
+Type in terminal: `sudo ./your_script.sh`
 
 ## can_interfaces.sh
 Executing the `can_interfaces.sh` script, you can load the "can0" and/or the
