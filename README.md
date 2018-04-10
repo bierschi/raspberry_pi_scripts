@@ -46,7 +46,7 @@ with the MCP2551 CAN transceiver
 
 <div align="left">
 <br>
-  <img src="pictures/RP_GSM.png" alt="example" width="260" height="280">
+  <img src="pictures/RP_GSM.png" alt="example" width="300" height="330">
 </div>
 <br>
 
