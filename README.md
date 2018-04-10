@@ -42,6 +42,20 @@ with the MCP2551 CAN transceiver
 
 ## establish_ppp_connection.sh
 
+#### **Wiring**
+
+<div align="left">
+<br>
+  <img src="pictures/RP_GSM.png" alt="example" width="210" height="220">
+</div>
+<br>
+
+The serial connection establish on `/dev/ttyAMA0` with baudrate of `115200`
+
+#### **Modules tested**
+
+- SIM928A
+- SIM900A
 
 ## hifiberry_configuration.sh
 Executing the `hifiberry_configuration.sh` script, you can select one
