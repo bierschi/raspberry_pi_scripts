@@ -5,7 +5,7 @@
   <img src="pictures/raspberry-pi-3.png" alt="example" width="295" height="197">
 </div>
 
-## Scripts
+## scripts
 - [can_interfaces.sh](https://github.com/bierschi/raspberry_pi_scripts#can_interfacessh)
 
 - [establish_ppp_connection.sh](https://github.com/bierschi/raspberry_pi_scripts#establish_ppp_connectionsh)
@@ -42,7 +42,7 @@ with the MCP2551 CAN transceiver
 
 ## establish_ppp_connection.sh
 
-#### **Wiring**
+#### **wiring**
 
 <div align="left">
 <br>
@@ -52,7 +52,7 @@ with the MCP2551 CAN transceiver
 
 The serial connection establish on `/dev/ttyAMA0` with baudrate of `115200`
 
-#### **Modules tested**
+#### **modules tested**
 
 - SIM928A
 - SIM900A
