@@ -6,6 +6,8 @@
 </div>
 
 ## scripts
+- [ros_install.sh](https://github.com/bierschi/raspberry_pi_scripts#ros_installsh)
+
 - [can_interfaces.sh](https://github.com/bierschi/raspberry_pi_scripts#can_interfacessh)
 
 - [establish_ppp_connection.sh](https://github.com/bierschi/raspberry_pi_scripts#establish_ppp_connectionsh)
@@ -23,6 +25,12 @@ chmod +x your_script.sh
 <br>
 
 Type in terminal: `sudo ./your_script.sh`
+
+## ros_install.sh
+
+Executing the `ros_install.sh` script, you will install `ros-kinetic` on raspbian.
+You can install only ros-core packages or additionally the desktop packages (rviz, ..).
+This script will take about 1 hour to install.
 
 ## can_interfaces.sh
 Executing the `can_interfaces.sh` script, you can load the "can0" and/or the
