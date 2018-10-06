@@ -93,7 +93,7 @@ building_catkin_ws(){
 
 echo -e "\nbuilding catkin workspace!\n"
 
-pip install --upgrade catkin_pkg_modules
+sudo pip install --upgrade catkin_pkg_modules
 sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/kinetic -j2
 
 }
